@@ -14,11 +14,6 @@ public class AnaMenü : MonoBehaviour
         
     }
 
-    public IEnumerator Anan()
-    {
-        yield return null; 
-    }
-
     public void OyunaBasla()
     {
         SceneManager.LoadScene("Gecis");
